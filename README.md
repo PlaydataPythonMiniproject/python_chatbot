@@ -17,6 +17,17 @@
 - 오늘의 뉴스 정보(news.py)
 - 플레이 유저 정보 조회(check_db_info.py)
 
+## 🧠 사용 언어 및 개발 환경
+Python
+: '플레e봇'은 파이썬 기본 문법을 활용하여 만든 간단한 챗봇입니다.
+- pip install pandas : print_schedule.py, menuselect.py에서 엑셀 파일 읽을 때 사용
+- pip install xlrd : print_schedule.py, menuselect.py에서 엑셀 파일 읽을 때 사용
+- pip install os : print_schedule.py에서 os 레벨로 파일 위치를 파악할 때 사용
+- pip install datetime : print_schedule.py에서 현재 시간을 가져올 때 사용
+- pip install requests : weather.py, corona.py, news.py에서 웹 크롤링 시 사용
+- pip install bs4 : weather.py, corona.py, news.py에서 웹 크롤링 시 사용
+- pip install oracle_cx : main.py에서 파이썬 변수 정보를 오라클 DB 연동에 사용
+
 ## 🎮 Technical Report 및 실행파일
 https://drive.google.com/drive/folders/1yjIpyjpNAMGRlD5-iXID92mkpZov813r?usp=sharing
 - '플레e봇(1.2)_cloud.zip' 다운로드 및 압축 해제
